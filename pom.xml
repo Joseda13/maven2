@@ -28,6 +28,14 @@
 		                <artifactId>maven-jetty-plugin</artifactId>
 		                <version>6.1.10</version>
 		            </plugin>
+		            <plugin>
+		                <groupId>maven-compiler-plugin</groupId>
+		                <artifactId>compile</artifactId>
+		                <version>3.3</version>
+		                <configuration>
+		                	<verbose>true</verbose>
+		                </configuration>
+		            </plugin>
 		        </plugins>
 		    </build>
 		    
